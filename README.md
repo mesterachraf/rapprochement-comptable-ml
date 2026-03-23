@@ -1,15 +1,8 @@
-Parfait, je vais te donner **une version prête à copier-coller dans GitHub**, bien organisée avec sections claires et mise en forme Markdown propre :
-
 ```markdown
-# 🔍 Rapprochement Comptable Intelligent — Flask + ML
-
+Rapprochement Comptable Intelligent — Flask + ML
 Application web pour le rapprochement comptable automatisé combinant règles métier et Machine Learning.
 
----
-
-## 📁 Structure du projet
-
-
+Structure du projet
 rapprochement/
 ├── app.py                  # Serveur Flask (point d'entrée)
 ├── requirements.txt        # Dépendances Python
@@ -30,7 +23,7 @@ rapprochement/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 1. **Cloner le projet**
 ```bash
@@ -64,7 +57,7 @@ Puis ouvrir dans le navigateur : [http://localhost:5000](http://localhost:5000)
 
 ---
 
-## 🚀 Utilisation
+## Utilisation
 
 1. Importer un fichier Excel (drag & drop ou parcourir)
 2. (Optionnel) Entraîner le modèle ML
@@ -80,7 +73,7 @@ Puis ouvrir dans le navigateur : [http://localhost:5000](http://localhost:5000)
 
 ---
 
-## 📄 Format du fichier Excel attendu
+## Format du fichier Excel attendu
 
 | Colonne             | Requis | Description                 |
 | ------------------- | ------ | --------------------------- |
@@ -96,7 +89,7 @@ Puis ouvrir dans le navigateur : [http://localhost:5000](http://localhost:5000)
 
 ---
 
-## ⚙️ Moteur de règles
+## Moteur de règles
 
 * **Règle 1** : regroupement par référence pivot
 * **Règle 2** : matching exact 1-1 (somme = 0)
@@ -104,7 +97,7 @@ Puis ouvrir dans le navigateur : [http://localhost:5000](http://localhost:5000)
 
 ---
 
-## 🤖 Machine Learning
+## Machine Learning
 
 * **Algorithme** : Random Forest (200 arbres)
 * **Features** : montant, texte, référence, date, D/C opposés, type, devise, magnitude
@@ -113,7 +106,7 @@ Puis ouvrir dans le navigateur : [http://localhost:5000](http://localhost:5000)
 
 ---
 
-## 🔎 Diagnostic
+## Diagnostic
 
 Analyse automatique des écritures non rapprochées :
 
@@ -128,7 +121,7 @@ Chaque catégorie indique : cause, solution, exemples.
 
 ---
 
-## 📊 Export Excel
+## Export Excel
 
 4 onglets :
 
@@ -139,7 +132,7 @@ Chaque catégorie indique : cause, solution, exemples.
 
 ---
 
-## 🧠 Technologies
+## Technologies
 
 * Python, Flask
 * Pandas, NumPy

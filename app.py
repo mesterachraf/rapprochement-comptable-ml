@@ -1,3 +1,4 @@
+from ast import main
 import os, io
 import pandas as pd
 from flask import Flask, render_template, request, jsonify, send_file, session
@@ -205,4 +206,4 @@ def synthetic_stats():
     })
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5000)
+    main()
